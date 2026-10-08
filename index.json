@@ -1,0 +1,19 @@
+{
+  "lip": 1,
+  "store": "lets-store",
+  "description": "Community lets store: static uniques you can open in a browser pane and talk through with Claude.",
+  "updated": "2026-10-09",
+  "uniques": [
+    {
+      "name": "graph",
+      "title": "Graph — talk in diagrams",
+      "description": "Draw flows and ideas; the companion and Claude read and edit the same board.",
+      "repo": "https://github.com/TikoTikTok/lets.git",
+      "path": "uniques/graph",
+      "ref": "main",
+      "verified": true,
+      "tags": ["graph", "diagram", "flow"],
+      "author": "TikoTikTok"
+    }
+  ]
+}

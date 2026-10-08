@@ -1,0 +1,10 @@
+{
+  "name": "lets-store",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Community lets store: an index of static uniques installable from git.",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  }
+}
