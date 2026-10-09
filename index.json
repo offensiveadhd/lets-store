@@ -2,17 +2,28 @@
   "lip": 1,
   "store": "lets-store",
   "description": "Community lets store: static uniques you can open in a browser pane and talk through with Claude.",
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "uniques": [
     {
       "name": "graph",
       "title": "Graph — talk in diagrams",
-      "description": "Draw flows and ideas; the companion and Claude read and edit the same board.",
-      "repo": "https://github.com/TikoTikTok/lets.git",
-      "path": "uniques/graph",
+      "description": "Draw flows and ideas; the companion and Claude read and edit the same board. Installed by default with lets.",
+      "repo": "https://github.com/TikoTikTok/lets-unique-graph.git",
+      "path": "",
       "ref": "main",
       "verified": true,
-      "tags": ["graph", "diagram", "flow"],
+      "tags": ["graph", "diagram", "flow", "default"],
+      "author": "TikoTikTok"
+    },
+    {
+      "name": "pulse",
+      "title": "Pulse — a dial you talk through",
+      "description": "The template unique: a mood dial with three modes; the companion reacts. Start here to build your own.",
+      "repo": "https://github.com/TikoTikTok/lets-unique-template.git",
+      "path": "",
+      "ref": "main",
+      "verified": true,
+      "tags": ["template", "example", "dial"],
       "author": "TikoTikTok"
     }
   ]
