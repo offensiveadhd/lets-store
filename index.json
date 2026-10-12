@@ -2,8 +2,19 @@
   "lip": 1,
   "store": "lets-store",
   "description": "Community lets store: static uniques you can open in a browser pane and talk through with Claude.",
-  "updated": "2026-10-10",
+  "updated": "2026-10-13",
   "uniques": [
+    {
+      "name": "den",
+      "title": "Den — Doto's home",
+      "description": "See what the companion learned about you and edit or forget any of it by pointing: persona, traits, likes, nicknames, memory, skills, secrets found. Installed by default with lets 0.6.0.",
+      "repo": "https://github.com/TikoTikTok/lets-unique-den.git",
+      "path": "",
+      "ref": "main",
+      "verified": true,
+      "tags": ["companion", "memory", "persona", "skills", "default"],
+      "author": "TikoTikTok"
+    },
     {
       "name": "graph",
       "title": "Graph — talk in diagrams",
