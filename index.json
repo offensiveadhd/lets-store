@@ -38,6 +38,17 @@
       "author": "TikoTikTok"
     },
     {
+      "name": "mors",
+      "title": "Mors — talk in Morse",
+      "description": "One key, one tape: key your message in dots and dashes and send it to Claude, who reads it as a prompt. Only Doto helps you craft it (read-back, spell as a ghost, chart, full controller), and Claude can answer in Morse on the tape. Installed from the store; not a default.",
+      "repo": "https://github.com/TikoTikTok/lets-unique-mors.git",
+      "path": "",
+      "ref": "main",
+      "verified": true,
+      "tags": ["morse", "key", "tape", "signal", "prompt"],
+      "author": "TikoTikTok"
+    },
+    {
       "name": "pulse",
       "title": "Pulse — a dial you talk through",
       "description": "The template unique: a mood dial with three modes; the companion reacts. Start here to build your own.",

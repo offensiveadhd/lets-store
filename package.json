@@ -1,6 +1,6 @@
 {
   "name": "lets-store",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
   "description": "Community lets store: an index of static uniques installable from git.",
