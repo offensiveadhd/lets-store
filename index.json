@@ -5,6 +5,17 @@
   "updated": "2026-10-13",
   "uniques": [
     {
+      "name": "cocode",
+      "title": "Cocode — talk in code",
+      "description": "Type in any language, even one that doesn't exist: Claude predicts your next lines as a ghost, builds the real program ahead so Run is instant, and reads what you send as a question or a task. Installed from the store; not a default.",
+      "repo": "https://github.com/TikoTikTok/lets-unique-cocode.git",
+      "path": "",
+      "ref": "main",
+      "verified": true,
+      "tags": ["code", "editor", "predict", "run", "pseudo-code"],
+      "author": "TikoTikTok"
+    },
+    {
       "name": "den",
       "title": "Den — Doto's home",
       "description": "See what the companion learned about you and edit or forget any of it by pointing: persona, traits, likes, nicknames, memory, skills, secrets found. Installed by default with lets 0.6.0.",
