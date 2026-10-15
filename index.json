@@ -2,12 +2,12 @@
   "lip": 1,
   "store": "lets-store",
   "description": "Community lets store: static uniques you can open in a browser pane and talk through with Claude.",
-  "updated": "2026-10-13",
+  "updated": "2026-10-15",
   "uniques": [
     {
       "name": "cocode",
       "title": "Cocode — talk in code",
-      "description": "Type in any language, even one that doesn't exist: Claude predicts your next lines as a ghost, builds the real program ahead so Run is instant, and reads what you send as a question or a task. Installed from the store; not a default.",
+      "description": "Type in any language, even one that doesn't exist: Claude predicts your next lines as a ghost, builds the real program ahead so Run is instant, performs for real any line that reaches outside the sandbox (ping, browser, search, an agent), and reads what you send as a question or a task. Installed from the store; not a default.",
       "repo": "https://github.com/TikoTikTok/lets-unique-cocode.git",
       "path": "",
       "ref": "main",
