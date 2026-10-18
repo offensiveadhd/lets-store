@@ -1,6 +1,6 @@
 # lets-store
 
-A community **store** for [lets](https://github.com/TikoTikTok/lets): a git
+A community **store** for [lets](https://github.com/offensiveadhd/lets): a git
 repository whose `index.json` lists *uniques* — rich interactive windows that
 `lets` opens in a browser pane so a human can talk to Claude graphically.
 
@@ -23,7 +23,7 @@ In Claude Code (with the lets plugin loaded):
 
 and pick `lets-store`, or ask Claude to use the `store add_store` tool:
 
-    store add_store { "name": "lets-store", "repo": "https://github.com/TikoTikTok/lets-store.git" }
+    store add_store { "name": "lets-store", "repo": "https://github.com/offensiveadhd/lets-store.git" }
 
 Then install any listed unique by name, e.g. `graph`, and open it in a window.
 

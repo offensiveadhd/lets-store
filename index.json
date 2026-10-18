@@ -8,56 +8,56 @@
       "name": "cocode",
       "title": "Cocode — talk in code",
       "description": "Type in any language, even one that doesn't exist: Claude predicts your next lines as a ghost, builds the real program ahead so Run is instant, performs for real any line that reaches outside the sandbox (ping, browser, search, an agent), and reads what you send as a question or a task. Installed from the store; not a default.",
-      "repo": "https://github.com/TikoTikTok/lets-unique-cocode.git",
+      "repo": "https://github.com/offensiveadhd/lets-unique-cocode.git",
       "path": "",
       "ref": "main",
       "verified": true,
       "tags": ["code", "editor", "predict", "run", "pseudo-code"],
-      "author": "TikoTikTok"
+      "author": "offensiveadhd"
     },
     {
       "name": "den",
       "title": "Den — Doto's home",
       "description": "See what the companion learned about you and edit or forget any of it by pointing: persona, traits, likes, nicknames, memory, skills, secrets found. Installed by default with lets 0.6.0.",
-      "repo": "https://github.com/TikoTikTok/lets-unique-den.git",
+      "repo": "https://github.com/offensiveadhd/lets-unique-den.git",
       "path": "",
       "ref": "main",
       "verified": true,
       "tags": ["companion", "memory", "persona", "skills", "default"],
-      "author": "TikoTikTok"
+      "author": "offensiveadhd"
     },
     {
       "name": "graph",
       "title": "Graph — talk in diagrams",
       "description": "Draw flows and ideas; the companion and Claude read and edit the same board. Installed by default with lets.",
-      "repo": "https://github.com/TikoTikTok/lets-unique-graph.git",
+      "repo": "https://github.com/offensiveadhd/lets-unique-graph.git",
       "path": "",
       "ref": "main",
       "verified": true,
       "tags": ["graph", "diagram", "flow", "default"],
-      "author": "TikoTikTok"
+      "author": "offensiveadhd"
     },
     {
       "name": "mors",
       "title": "Mors — talk in Morse",
       "description": "One key, one tape: key your message in dots and dashes and send it to Claude, who reads it as a prompt. Only Doto helps you craft it (read-back, spell as a ghost, chart, full controller), and Claude can answer in Morse on the tape. Installed from the store; not a default.",
-      "repo": "https://github.com/TikoTikTok/lets-unique-mors.git",
+      "repo": "https://github.com/offensiveadhd/lets-unique-mors.git",
       "path": "",
       "ref": "main",
       "verified": true,
       "tags": ["morse", "key", "tape", "signal", "prompt"],
-      "author": "TikoTikTok"
+      "author": "offensiveadhd"
     },
     {
       "name": "pulse",
       "title": "Pulse — a dial you talk through",
       "description": "The template unique: a mood dial with three modes; the companion reacts. Start here to build your own.",
-      "repo": "https://github.com/TikoTikTok/lets-unique-template.git",
+      "repo": "https://github.com/offensiveadhd/lets-unique-template.git",
       "path": "",
       "ref": "main",
       "verified": true,
       "tags": ["template", "example", "dial"],
-      "author": "TikoTikTok"
+      "author": "offensiveadhd"
     }
   ]
 }
