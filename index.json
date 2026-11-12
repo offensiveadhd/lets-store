@@ -2,7 +2,7 @@
   "lip": 1,
   "store": "lets-store",
   "description": "Community lets store: static uniques you can open in a browser pane and talk through with Claude.",
-  "updated": "2026-10-15",
+  "updated": "2026-11-12",
   "uniques": [
     {
       "name": "cocode",
@@ -58,6 +58,19 @@
       "verified": true,
       "tags": ["template", "example", "dial"],
       "author": "offensiveadhd"
+    },
+    {
+      "name": "tweak",
+      "title": "Tweak — an inspector for any codebase",
+      "description": "Say what to tweak (\"player movement\", \"the scoring\"): Claude finds the values once, then sliders, toggles and color pickers edit your source files through a small local agent with no further AI calls. Undo or revert any time. Needs Node 20+ for the agent.",
+      "repo": "https://github.com/alon-hoffman/lets-unique-tweak.git",
+      "path": "",
+      "ref": "main",
+      "sha": "961bfc62f389215405d9e0f4731bdeef31ea6495",
+      "manifestSha256": "51ffbfebb575eb23650e5670308eb5851f3b57cc2f2a38859fed1f68dc9a5f50",
+      "verified": false,
+      "tags": ["inspector", "tuning", "parameters", "developer-tools", "natural-language"],
+      "author": "alon-hoffman"
     }
   ]
 }
