@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="lets-store">
+  <title>lets-store</title>
+  <defs>
+    <radialGradient id="ls-bg" cx="50%" cy="42%" r="72%">
+      <stop offset="0" stop-color="#2b1a52"/>
+      <stop offset="1" stop-color="#120b1f"/>
+    </radialGradient>
+    <radialGradient id="ls-orb" cx="38%" cy="32%" r="75%">
+      <stop offset="0" stop-color="#e3ccff"/>
+      <stop offset=".45" stop-color="#a66bff"/>
+      <stop offset="1" stop-color="#5a2fb0"/>
+    </radialGradient>
+    <radialGradient id="ls-cy" cx="38%" cy="32%" r="75%">
+      <stop offset="0" stop-color="#dcfcff"/>
+      <stop offset=".45" stop-color="#6bf0ff"/>
+      <stop offset="1" stop-color="#2a8ea0"/>
+    </radialGradient>
+    <linearGradient id="ls-ink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c49bff"/>
+      <stop offset="1" stop-color="#ff8fe0"/>
+    </linearGradient>
+    <filter id="ls-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="url(#ls-bg)"/>
+  <rect x="3" y="3" width="250" height="250" rx="55" fill="none" stroke="#5a44a0" stroke-opacity=".6" stroke-width="6"/>
+  <!-- the index: four places on a shelf, each one a unique that lives in its own repository -->
+  <g fill="#1a1030" fill-opacity=".9" stroke="#5a44a0" stroke-opacity=".85" stroke-width="4">
+    <rect x="40" y="40" width="80" height="80" rx="20"/>
+    <rect x="136" y="40" width="80" height="80" rx="20"/>
+    <rect x="40" y="136" width="80" height="80" rx="20"/>
+  </g>
+  <!-- the place that is still open: the next unique, yours -->
+  <rect x="136" y="136" width="80" height="80" rx="20" fill="none" stroke="#a99cd0" stroke-opacity=".7" stroke-width="4" stroke-dasharray="9 9" stroke-linecap="round"/>
+  <!-- a board: two nodes and an edge -->
+  <g filter="url(#ls-glow)">
+    <path d="M62 96 L98 64" fill="none" stroke="url(#ls-ink)" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="62" cy="96" r="11" fill="url(#ls-cy)"/>
+    <circle cx="98" cy="64" r="11" fill="#ff6bd6"/>
+  </g>
+  <!-- code: two brackets -->
+  <g filter="url(#ls-glow)" fill="none" stroke="url(#ls-ink)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M166 62 L152 80 L166 98"/>
+    <path d="M186 62 L200 80 L186 98"/>
+  </g>
+  <!-- a key and a tape: dot, dash, dot -->
+  <g filter="url(#ls-glow)" fill="#6bf0ff">
+    <circle cx="60" cy="176" r="7"/>
+    <rect x="72" y="169" width="22" height="14" rx="7"/>
+    <circle cx="103" cy="176" r="7" fill="#ff6bd6"/>
+  </g>
+  <!-- Doto keeps the shelf -->
+  <g filter="url(#ls-glow)">
+    <circle cx="176" cy="176" r="24" fill="url(#ls-orb)"/>
+  </g>
+  <circle cx="168" cy="167.5" r="6" fill="#fff" fill-opacity=".75"/>
+  <circle cx="167.5" cy="179" r="4" fill="#120b1f"/>
+  <circle cx="184.5" cy="179" r="4" fill="#120b1f"/>
+  <!-- verified: the green tick a maintainer's review leaves -->
+  <circle cx="212" cy="44" r="17" fill="#120b1f"/>
+  <circle cx="212" cy="44" r="13.5" fill="none" stroke="#5ef2a6" stroke-width="4.5"/>
+  <path d="M205.5 44.5 L210.5 49.5 L219 39.5" fill="none" stroke="#5ef2a6" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
